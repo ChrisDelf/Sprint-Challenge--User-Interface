@@ -392,9 +392,83 @@ button:hover {
 
  }
 
+h4 {
+    display: flex;
+    font-size: 30px;
+    justify-content: center;
+    margin: 30px;
 
 
 
 
+}
 
+.robotOverLords
+{
+
+ width: 300px;
+ height: 250px;
+ animation-duration: 2s;
+ animation-name: bounceIn;
+
+
+}
+
+.brainCloud
+{
+
+    width: 300px;
+    height: 250px;
+    animation-name: tutsFade;
+    animation-duration: 4s;
+    animation-delay: 1s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-direction: alternate;
+   
+   
+   }
+
+
+@keyframes bounceIn {
+    0% {
+      transform: scale(0.1);
+      opacity: 0;
+    }
+    60% {
+      transform: scale(1.2);
+      opacity: 1;
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
+
+  @keyframes tutsFade {
+    from {
+      opacity: 1;
+    }
+    to {
+      opacity: 0;
+    }
+  }
+
+  .eliteHacker 
+  {
+
+    width: 300px;
+    height: 250px;
+
+
+  }
+
+  .normalPeople
+
+  {
+
+    width: 300px;
+    height: 250px;
+
+
+  }
 
